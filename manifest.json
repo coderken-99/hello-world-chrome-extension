@@ -1,0 +1,12 @@
+{
+  "name": "Hello world",
+  "description": "This is a hello world extension",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
